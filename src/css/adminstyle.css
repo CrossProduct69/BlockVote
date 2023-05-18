@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+
+body{
+	margin: 0;
+	padding: 0;
+	background: radial-gradient(#99582a,#99582a,#99582a); 
+	height: 100vh;
+	overflow: hidden;
+	font-family: 'Noto Sans TC', sans-serif;
+}
+.leftside { width: 60%; height: auto; overflow: hidden; margin-top: 20px;}
+
+.leftside img{ 
+	padding-left: 100px;
+	padding-top: 100px;
+}
+.center{
+	width: 430px;
+	top: -28.1em;
+	right: -55em;
+	position: relative;
+	
+}
+.center .header{
+	font-size: 30px;
+	font-weight: medium;
+	color: #ffe6a7;
+	padding: 25px 0 30px 35px;
+	background: #432818;
+	border-bottom: 1px solid #ffe6a7;
+	border-radius: 5px 5px 0 0;
+}
+.center form{
+	position: absolute;
+	background: #ffe6a7;
+	width: 100%;
+	padding: 35px;
+	box-sizing: border-box;
+	border: 1px solid #ffe6a7;
+	border-radius: 0 0 5px 5px;
+}
+/* form input{
+	height: 50px;
+	width: 90%;
+	padding: 0 10px;
+	border-radius: 3px;
+	border: 1px solid #ffe6a7;
+	font-size: 18px;
+	outline: none;
+} */
+/* form input[type="password"]{
+	margin-top: 20px;
+} */
+/* form i{
+	position: absolute;
+	font-size: 25px;
+	color: grey;
+	margin: 20px 10px 0 -50px;
+} */
+/* i.fa-lock{
+	margin-top: 35px;
+} */
+/* form input[type="submit"]{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	width: 130px;
+	height: 45px;
+	color: white;
+	cursor: pointer;
+	line-height: 45px;
+	border-radius: 45px;
+	border-radius: 5px;
+	background: #34d8eb;
+} */
+/* form input[type="submit"]:hover{
+	background:  #2890e6;
+	transition: .5s;
+} */
+form label{
+	margin-right: 0.25rem;
+	font-weight: medium;
+	font-size: 20px;
+}
+#btSub{
+	font-weight: bold;
+	font-size: 20px;
+}
